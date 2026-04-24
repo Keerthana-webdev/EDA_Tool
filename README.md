@@ -36,11 +36,11 @@ EDA-Tool/
 ---
 
 ### Installation
-#### Prerequisites
+- #### Prerequisites
 - Python 3.7+
 - pip package manager
 
-#### Dependencies
+- #### Dependencies
 Install the required packages using the provided requirements.txt:
 ```bash
 pip install -r requirements.txt
