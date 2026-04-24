@@ -1,6 +1,8 @@
 ## EDA Tool
 A web-based Exploratory Data Analysis (EDA) tool built with Flask that allows users to upload CSV or Excel files, automatically detect and clean data, generate visualizations, and export reports.
 
+---
+
 ### Features
 - **File Upload**: Support for CSV and XLSX file formats
 - **Automatic Data Cleaning**: 
@@ -13,6 +15,8 @@ A web-based Exploratory Data Analysis (EDA) tool built with Flask that allows us
   - Download cleaned CSV data
   - Generate and download PDF reports with tables and plots
 - **Real-time Processing**: Processes files up to 1000 rows for quick analysis
+
+---
 
 ### Project Structure
 ```
@@ -29,9 +33,9 @@ EDA-Tool/
 ├── uploads/               # Temporary upload directory
 └── README.md              # Project Documentation
 ```
+---
 
 ### Installation
-
 #### Prerequisites
 - Python 3.7+
 - pip package manager
@@ -41,6 +45,7 @@ Install the required packages using the provided requirements.txt:
 ```bash
 pip install -r requirements.txt
 ```
+---
 
 ### Usage
 1️⃣ **Start the application**:
@@ -63,11 +68,15 @@ pip install -r requirements.txt
    - Use "Download CSV" to get the cleaned dataset
    - Use "Download PDF" to get a comprehensive report
 
+---
+
 ### API Endpoints
 - `GET /` - Main page
 - `POST /upload` - File upload and processing
 - `GET /download_csv` - Download cleaned CSV
 - `GET /download_pdf` - Download PDF report
+
+---
 
 ### Future Enhancements
 - Support for more file formats (JSON, Parquet)
@@ -77,6 +86,8 @@ pip install -r requirements.txt
 - Batch processing capabilities
 - User authentication and file management
 - API endpoints for programmatic access
+
+---
 
 ### Author
 
